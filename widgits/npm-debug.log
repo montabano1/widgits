@@ -1,0 +1,422 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.7.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'webpack',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'babel-core',
+1 verbose cli   'babel-loader',
+1 verbose cli   'babel-preset-env',
+1 verbose cli   'bable-preset-react' ]
+2 info using npm@3.10.7
+3 info using node@v6.7.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData webpack
+8 silly fetchPackageMetaData react
+9 silly fetchPackageMetaData react-dom
+10 silly fetchPackageMetaData babel-core
+11 silly fetchPackageMetaData babel-loader
+12 silly fetchPackageMetaData babel-preset-env
+13 silly fetchPackageMetaData bable-preset-react
+14 silly fetchNamedPackageData webpack
+15 silly mapToRegistry name webpack
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry https://registry.npmjs.org/
+18 silly mapToRegistry data Result {
+18 silly mapToRegistry   raw: 'webpack',
+18 silly mapToRegistry   scope: null,
+18 silly mapToRegistry   escapedName: 'webpack',
+18 silly mapToRegistry   name: 'webpack',
+18 silly mapToRegistry   rawSpec: '',
+18 silly mapToRegistry   spec: 'latest',
+18 silly mapToRegistry   type: 'tag' }
+19 silly mapToRegistry uri https://registry.npmjs.org/webpack
+20 silly fetchNamedPackageData react
+21 silly mapToRegistry name react
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: 'react',
+24 silly mapToRegistry   scope: null,
+24 silly mapToRegistry   escapedName: 'react',
+24 silly mapToRegistry   name: 'react',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/react
+26 silly fetchNamedPackageData react-dom
+27 silly mapToRegistry name react-dom
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'react-dom',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'react-dom',
+30 silly mapToRegistry   name: 'react-dom',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+32 silly fetchNamedPackageData babel-core
+33 silly mapToRegistry name babel-core
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'babel-core',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   escapedName: 'babel-core',
+36 silly mapToRegistry   name: 'babel-core',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+38 silly fetchNamedPackageData babel-loader
+39 silly mapToRegistry name babel-loader
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'babel-loader',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'babel-loader',
+42 silly mapToRegistry   name: 'babel-loader',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/babel-loader
+44 silly fetchNamedPackageData babel-preset-env
+45 silly mapToRegistry name babel-preset-env
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'babel-preset-env',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'babel-preset-env',
+48 silly mapToRegistry   name: 'babel-preset-env',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-env
+50 silly fetchNamedPackageData bable-preset-react
+51 silly mapToRegistry name bable-preset-react
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry data Result {
+54 silly mapToRegistry   raw: 'bable-preset-react',
+54 silly mapToRegistry   scope: null,
+54 silly mapToRegistry   escapedName: 'bable-preset-react',
+54 silly mapToRegistry   name: 'bable-preset-react',
+54 silly mapToRegistry   rawSpec: '',
+54 silly mapToRegistry   spec: 'latest',
+54 silly mapToRegistry   type: 'tag' }
+55 silly mapToRegistry uri https://registry.npmjs.org/bable-preset-react
+56 verbose request uri https://registry.npmjs.org/babel-preset-env
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 11:33:42 AM
+59 verbose request id 98564e1f1a2778d6
+60 http request GET https://registry.npmjs.org/babel-preset-env
+61 verbose request uri https://registry.npmjs.org/bable-preset-react
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 11:33:42 AM
+64 http request GET https://registry.npmjs.org/bable-preset-react
+65 verbose request uri https://registry.npmjs.org/webpack
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 11:33:42 AM
+68 verbose etag W/"9ed8029746545c94f0f6b1ea79992a23"
+69 verbose lastModified Sun, 24 Jun 2018 08:44:48 GMT
+70 http request GET https://registry.npmjs.org/webpack
+71 verbose request uri https://registry.npmjs.org/react-dom
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 11:33:42 AM
+74 verbose etag W/"58fc6f2d-17f70"
+75 verbose lastModified Sun, 23 Apr 2017 09:09:01 GMT
+76 http request GET https://registry.npmjs.org/react-dom
+77 verbose request uri https://registry.npmjs.org/babel-loader
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 11:33:42 AM
+80 verbose etag W/"58fc6faa-16467"
+81 verbose lastModified Sun, 23 Apr 2017 09:11:06 GMT
+82 http request GET https://registry.npmjs.org/babel-loader
+83 verbose request uri https://registry.npmjs.org/react
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 11:33:42 AM
+86 verbose etag W/"58fc6f29-2996d"
+87 verbose lastModified Sun, 23 Apr 2017 09:08:57 GMT
+88 http request GET https://registry.npmjs.org/react
+89 verbose request uri https://registry.npmjs.org/babel-core
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 11:33:42 AM
+92 verbose etag W/"58fc73a1-79653"
+93 verbose lastModified Sun, 23 Apr 2017 09:28:01 GMT
+94 http request GET https://registry.npmjs.org/babel-core
+95 http 200 https://registry.npmjs.org/babel-preset-env
+96 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+96 verbose headers   'content-type': 'application/json; charset=UTF-8',
+96 verbose headers   'transfer-encoding': 'chunked',
+96 verbose headers   connection: 'keep-alive',
+96 verbose headers   'set-cookie': [ '__cfduid=df0f914b4119a5bae7cea5eb1013e37351530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+96 verbose headers   'cache-control': 'max-age=300',
+96 verbose headers   'cf-cache-status': 'HIT',
+96 verbose headers   'cf-ray': '43297403792921b6-EWR',
+96 verbose headers   etag: 'W/"2c97fca051644284296d71315004108b"',
+96 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+96 verbose headers   'last-modified': 'Fri, 25 May 2018 10:19:53 GMT',
+96 verbose headers   vary: 'accept-encoding, accept',
+96 verbose headers   server: 'cloudflare',
+96 verbose headers   'content-encoding': 'gzip' }
+97 silly get cb [ 200,
+97 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+97 silly get     'content-type': 'application/json; charset=UTF-8',
+97 silly get     'transfer-encoding': 'chunked',
+97 silly get     connection: 'keep-alive',
+97 silly get     'set-cookie': [ '__cfduid=df0f914b4119a5bae7cea5eb1013e37351530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+97 silly get     'cache-control': 'max-age=300',
+97 silly get     'cf-cache-status': 'HIT',
+97 silly get     'cf-ray': '43297403792921b6-EWR',
+97 silly get     etag: 'W/"2c97fca051644284296d71315004108b"',
+97 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+97 silly get     'last-modified': 'Fri, 25 May 2018 10:19:53 GMT',
+97 silly get     vary: 'accept-encoding, accept',
+97 silly get     server: 'cloudflare',
+97 silly get     'content-encoding': 'gzip' } ]
+98 verbose get saving babel-preset-env to /Users/appacademy/.npm/registry.npmjs.org/babel-preset-env/.cache.json
+99 verbose correctMkdir /Users/appacademy/.npm correctMkdir not in flight; initializing
+100 http 200 https://registry.npmjs.org/babel-loader
+101 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+101 verbose headers   'content-type': 'application/json; charset=UTF-8',
+101 verbose headers   'transfer-encoding': 'chunked',
+101 verbose headers   connection: 'keep-alive',
+101 verbose headers   'set-cookie': [ '__cfduid=db105051bf030a73cf0dba5e52a7694061530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+101 verbose headers   'cache-control': 'max-age=300',
+101 verbose headers   'cf-cache-status': 'HIT',
+101 verbose headers   'cf-ray': '432974046ba721bc-EWR',
+101 verbose headers   etag: 'W/"369ce7d97727fb2e4e8aad7a737ae904"',
+101 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+101 verbose headers   'last-modified': 'Fri, 22 Jun 2018 02:52:54 GMT',
+101 verbose headers   vary: 'accept-encoding, accept',
+101 verbose headers   server: 'cloudflare',
+101 verbose headers   'content-encoding': 'gzip' }
+102 silly get cb [ 200,
+102 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+102 silly get     'content-type': 'application/json; charset=UTF-8',
+102 silly get     'transfer-encoding': 'chunked',
+102 silly get     connection: 'keep-alive',
+102 silly get     'set-cookie': [ '__cfduid=db105051bf030a73cf0dba5e52a7694061530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+102 silly get     'cache-control': 'max-age=300',
+102 silly get     'cf-cache-status': 'HIT',
+102 silly get     'cf-ray': '432974046ba721bc-EWR',
+102 silly get     etag: 'W/"369ce7d97727fb2e4e8aad7a737ae904"',
+102 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+102 silly get     'last-modified': 'Fri, 22 Jun 2018 02:52:54 GMT',
+102 silly get     vary: 'accept-encoding, accept',
+102 silly get     server: 'cloudflare',
+102 silly get     'content-encoding': 'gzip' } ]
+103 verbose get saving babel-loader to /Users/appacademy/.npm/registry.npmjs.org/babel-loader/.cache.json
+104 verbose correctMkdir /Users/appacademy/.npm correctMkdir not in flight; initializing
+105 http 200 https://registry.npmjs.org/react
+106 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+106 verbose headers   'content-type': 'application/json; charset=UTF-8',
+106 verbose headers   'transfer-encoding': 'chunked',
+106 verbose headers   connection: 'keep-alive',
+106 verbose headers   'set-cookie': [ '__cfduid=dca73d864496937da4e1d6ac21be0ab9f1530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+106 verbose headers   'cache-control': 'max-age=300',
+106 verbose headers   'cf-cache-status': 'HIT',
+106 verbose headers   'cf-ray': '432974046e75218c-EWR',
+106 verbose headers   etag: 'W/"3ce35ce335e899ab1086c4fd2b824057"',
+106 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+106 verbose headers   'last-modified': 'Wed, 13 Jun 2018 16:47:41 GMT',
+106 verbose headers   vary: 'accept-encoding, accept',
+106 verbose headers   server: 'cloudflare',
+106 verbose headers   'content-encoding': 'gzip' }
+107 silly get cb [ 200,
+107 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+107 silly get     'content-type': 'application/json; charset=UTF-8',
+107 silly get     'transfer-encoding': 'chunked',
+107 silly get     connection: 'keep-alive',
+107 silly get     'set-cookie': [ '__cfduid=dca73d864496937da4e1d6ac21be0ab9f1530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+107 silly get     'cache-control': 'max-age=300',
+107 silly get     'cf-cache-status': 'HIT',
+107 silly get     'cf-ray': '432974046e75218c-EWR',
+107 silly get     etag: 'W/"3ce35ce335e899ab1086c4fd2b824057"',
+107 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+107 silly get     'last-modified': 'Wed, 13 Jun 2018 16:47:41 GMT',
+107 silly get     vary: 'accept-encoding, accept',
+107 silly get     server: 'cloudflare',
+107 silly get     'content-encoding': 'gzip' } ]
+108 verbose get saving react to /Users/appacademy/.npm/registry.npmjs.org/react/.cache.json
+109 verbose correctMkdir /Users/appacademy/.npm correctMkdir not in flight; initializing
+110 http 200 https://registry.npmjs.org/react-dom
+111 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+111 verbose headers   'content-type': 'application/json; charset=UTF-8',
+111 verbose headers   'transfer-encoding': 'chunked',
+111 verbose headers   connection: 'keep-alive',
+111 verbose headers   'set-cookie': [ '__cfduid=de31370dd0aa14031aebdabdb9f5d039a1530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+111 verbose headers   'cache-control': 'max-age=300',
+111 verbose headers   'cf-cache-status': 'HIT',
+111 verbose headers   'cf-ray': '432974046b2921ce-EWR',
+111 verbose headers   etag: 'W/"4351cb127c9537a477407da6a3c013f6"',
+111 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+111 verbose headers   'last-modified': 'Wed, 13 Jun 2018 16:47:39 GMT',
+111 verbose headers   vary: 'accept-encoding, accept',
+111 verbose headers   server: 'cloudflare',
+111 verbose headers   'content-encoding': 'gzip' }
+112 silly get cb [ 200,
+112 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+112 silly get     'content-type': 'application/json; charset=UTF-8',
+112 silly get     'transfer-encoding': 'chunked',
+112 silly get     connection: 'keep-alive',
+112 silly get     'set-cookie': [ '__cfduid=de31370dd0aa14031aebdabdb9f5d039a1530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+112 silly get     'cache-control': 'max-age=300',
+112 silly get     'cf-cache-status': 'HIT',
+112 silly get     'cf-ray': '432974046b2921ce-EWR',
+112 silly get     etag: 'W/"4351cb127c9537a477407da6a3c013f6"',
+112 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+112 silly get     'last-modified': 'Wed, 13 Jun 2018 16:47:39 GMT',
+112 silly get     vary: 'accept-encoding, accept',
+112 silly get     server: 'cloudflare',
+112 silly get     'content-encoding': 'gzip' } ]
+113 verbose get saving react-dom to /Users/appacademy/.npm/registry.npmjs.org/react-dom/.cache.json
+114 verbose correctMkdir /Users/appacademy/.npm correctMkdir not in flight; initializing
+115 http 200 https://registry.npmjs.org/babel-core
+116 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+116 verbose headers   'content-type': 'application/json; charset=UTF-8',
+116 verbose headers   'transfer-encoding': 'chunked',
+116 verbose headers   connection: 'keep-alive',
+116 verbose headers   'set-cookie': [ '__cfduid=db105051bf030a73cf0dba5e52a7694061530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+116 verbose headers   'cache-control': 'max-age=300',
+116 verbose headers   'cf-cache-status': 'HIT',
+116 verbose headers   'cf-ray': '432974047bb321bc-EWR',
+116 verbose headers   etag: 'W/"bfdc24f47029f1f46f1bdf08b0bc94ba"',
+116 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+116 verbose headers   'last-modified': 'Sat, 26 May 2018 01:34:08 GMT',
+116 verbose headers   vary: 'accept-encoding, accept',
+116 verbose headers   server: 'cloudflare',
+116 verbose headers   'content-encoding': 'gzip' }
+117 silly get cb [ 200,
+117 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+117 silly get     'content-type': 'application/json; charset=UTF-8',
+117 silly get     'transfer-encoding': 'chunked',
+117 silly get     connection: 'keep-alive',
+117 silly get     'set-cookie': [ '__cfduid=db105051bf030a73cf0dba5e52a7694061530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+117 silly get     'cache-control': 'max-age=300',
+117 silly get     'cf-cache-status': 'HIT',
+117 silly get     'cf-ray': '432974047bb321bc-EWR',
+117 silly get     etag: 'W/"bfdc24f47029f1f46f1bdf08b0bc94ba"',
+117 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+117 silly get     'last-modified': 'Sat, 26 May 2018 01:34:08 GMT',
+117 silly get     vary: 'accept-encoding, accept',
+117 silly get     server: 'cloudflare',
+117 silly get     'content-encoding': 'gzip' } ]
+118 verbose get saving babel-core to /Users/appacademy/.npm/registry.npmjs.org/babel-core/.cache.json
+119 verbose correctMkdir /Users/appacademy/.npm correctMkdir not in flight; initializing
+120 http 404 https://registry.npmjs.org/bable-preset-react
+121 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+121 verbose headers   'content-type': 'application/json',
+121 verbose headers   'content-length': '21',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'set-cookie': [ '__cfduid=de8d04fcd463ae83f7dbe85e17715bd611530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   'cf-cache-status': 'MISS',
+121 verbose headers   'cf-ray': '432974036ac82186-EWR',
+121 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+121 verbose headers   vary: 'accept-encoding, accept',
+121 verbose headers   server: 'cloudflare' }
+122 silly get cb [ 404,
+122 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+122 silly get     'content-type': 'application/json',
+122 silly get     'content-length': '21',
+122 silly get     connection: 'keep-alive',
+122 silly get     'set-cookie': [ '__cfduid=de8d04fcd463ae83f7dbe85e17715bd611530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     'cf-cache-status': 'MISS',
+122 silly get     'cf-ray': '432974036ac82186-EWR',
+122 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+122 silly get     vary: 'accept-encoding, accept',
+122 silly get     server: 'cloudflare' } ]
+123 silly fetchPackageMetaData Error: Not found : bable-preset-react
+123 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+123 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+123 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+123 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+123 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+123 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+123 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+123 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+123 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+123 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12)
+123 silly fetchPackageMetaData  error for bable-preset-react { Error: Not found : bable-preset-react
+123 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+123 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+123 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+123 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+123 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+123 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+123 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+123 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+123 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+123 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12) pkgid: 'bable-preset-react', statusCode: 404, code: 'E404' }
+124 http 200 https://registry.npmjs.org/webpack
+125 verbose headers { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+125 verbose headers   'content-type': 'application/json; charset=UTF-8',
+125 verbose headers   'transfer-encoding': 'chunked',
+125 verbose headers   connection: 'keep-alive',
+125 verbose headers   'set-cookie': [ '__cfduid=d0b00a9a2529271721c5df8966d265c131530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+125 verbose headers   'cache-control': 'max-age=300',
+125 verbose headers   'cf-cache-status': 'HIT',
+125 verbose headers   'cf-ray': '4329740469f42198-EWR',
+125 verbose headers   etag: 'W/"acfc887da5550cdd4b85522e91b42e8d"',
+125 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+125 verbose headers   'last-modified': 'Fri, 29 Jun 2018 12:13:37 GMT',
+125 verbose headers   vary: 'accept-encoding, accept',
+125 verbose headers   server: 'cloudflare',
+125 verbose headers   'content-encoding': 'gzip' }
+126 silly get cb [ 200,
+126 silly get   { date: 'Fri, 29 Jun 2018 15:33:43 GMT',
+126 silly get     'content-type': 'application/json; charset=UTF-8',
+126 silly get     'transfer-encoding': 'chunked',
+126 silly get     connection: 'keep-alive',
+126 silly get     'set-cookie': [ '__cfduid=d0b00a9a2529271721c5df8966d265c131530286423; expires=Sat, 29-Jun-19 15:33:43 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+126 silly get     'cache-control': 'max-age=300',
+126 silly get     'cf-cache-status': 'HIT',
+126 silly get     'cf-ray': '4329740469f42198-EWR',
+126 silly get     etag: 'W/"acfc887da5550cdd4b85522e91b42e8d"',
+126 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+126 silly get     'last-modified': 'Fri, 29 Jun 2018 12:13:37 GMT',
+126 silly get     vary: 'accept-encoding, accept',
+126 silly get     server: 'cloudflare',
+126 silly get     'content-encoding': 'gzip' } ]
+127 verbose get saving webpack to /Users/appacademy/.npm/registry.npmjs.org/webpack/.cache.json
+128 verbose correctMkdir /Users/appacademy/.npm correctMkdir not in flight; initializing
+129 silly rollbackFailedOptional Starting
+130 silly rollbackFailedOptional Finishing
+131 silly runTopLevelLifecycles Finishing
+132 silly install printInstalled
+133 verbose stack Error: Not found : bable-preset-react
+133 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+133 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+133 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+133 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:187:22)
+133 verbose stack     at emitTwo (events.js:106:13)
+133 verbose stack     at Request.emit (events.js:191:7)
+133 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+133 verbose stack     at emitOne (events.js:96:13)
+133 verbose stack     at Request.emit (events.js:188:7)
+133 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:965:12)
+134 verbose statusCode 404
+135 verbose pkgid bable-preset-react
+136 verbose cwd /Users/appacademy/Desktop/W6D5/widgits
+137 error Darwin 16.7.0
+138 error argv "/usr/local/Cellar/node/6.7.0/bin/node" "/usr/local/bin/npm" "install" "--save" "webpack" "react" "react-dom" "babel-core" "babel-loader" "babel-preset-env" "bable-preset-react"
+139 error node v6.7.0
+140 error npm  v3.10.7
+141 error code E404
+142 error 404 Not found : bable-preset-react
+143 error 404
+144 error 404 'bable-preset-react' is not in the npm registry.
+145 error 404 You should bug the author to publish it (or use the name yourself!)
+146 error 404 Note that you can also install from a
+147 error 404 tarball, folder, http url, or git url.
+148 verbose exit [ 1, true ]
